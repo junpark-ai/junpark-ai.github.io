@@ -2,12 +2,12 @@
 title: First post on the blog
 date: 2024-01-09 10:10:00 +0900
 categories: [etc]
-tags: [GitHub Pages]     # TAG names should always be lowercase
+tags: [github-pages]     # TAG names should always be lowercase
 ---
 
 
 
-밤새가며 새벽 내내 Git Pages로 블로그를 만들었다.
+밤새가며 새벽 내내 GitHub Pages로 블로그를 만들었다.
 
 많은 시행착오가 있었지만, 성공하니 아주 뿌듯하다.
 
