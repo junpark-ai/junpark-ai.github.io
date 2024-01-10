@@ -21,6 +21,7 @@ I'm interested in using LLMs in Robotics.
 # Education
 
 > **B.S.** in Artificial Intelligence, University of Seoul
+>
 > ( Mar. 2021 ~ present )
 
 
