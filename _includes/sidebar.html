@@ -2,7 +2,7 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle" style="display: block; margin-left: 33.5px;">
+    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle" style="display: block; margin-left: auto; margin-right: auto;">
       {% if site.avatar != empty and site.avatar %}
         {% capture avatar_url %}
             {% if site.avatar contains '://' %}
@@ -13,14 +13,14 @@
               {{ site.avatar | relative_url }}
             {% endif %}
           {% endcapture %}
-        <img src="{{ avatar_url | strip }}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+          <img src="{{ avatar_url | strip }}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
       {% endif %}
     </a>
 
     <h1 class="site-title">
-      <a href="{{ '/' | relative_url }}" style="display: block; margin-right: 20px; text-align: center;">{{ site.title }}</a>
+      <a href="{{ '/' | relative_url }}" style="display: block; text-align: center;">{{ site.title }}</a>
     </h1>
-    <p class="site-subtitle fst-italic mb-0" style="display: block; margin-right: 20px; text-align: center;">{{ site.tagline }}</p>
+    <p class="site-subtitle fst-italic mb-0" style="display: block; text-align: center;">{{ site.tagline }}</p>
   </header>
   <!-- .profile-wrapper -->
 
