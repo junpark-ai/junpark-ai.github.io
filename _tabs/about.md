@@ -29,11 +29,11 @@ I am currently a department topper with a 4.44/4.50 GPA [[<span style="color:gre
 > ### Image Caption refinement via Feedback Mechanism <span style="color:grey">(alias)</span>
 >
 > ECCV 2024, 2nd author  
-> ( Waiting for reviews ... )
+> ( Under Review ... )
 >
 > Feb. 2024, RCV lab
 
-> ### AICOSS Hackathon Competetion
+> ### AICOSS Hackathon Competition
 >
 > We participated in a competition to develop an AI model that performs Multi-Label Classification based on satellite images containing various geographic and environmental features. We tried various models and losses, and we could get the 1st prize in the competition. And also I could get skills in multi-GPU training. [[<span style="color:olive">**pdf**</span>](https://drive.google.com/file/d/1bVbgRfW0220K4wjLlitpN05uqFYMc8Rn/view?usp=sharing)] [[<span style="color:olive">**code**</span>](https://github.com/junpark-ai/AICOSS)]
 >
