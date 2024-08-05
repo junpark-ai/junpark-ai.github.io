@@ -69,7 +69,7 @@ I am currently a department topper with a 4.44/4.50 GPA [[<span style="color:gre
 
 # **Awards**
 
-> **University of Seoul President's Award** for AICOSS Hackathon Competetion   
+> **University of Seoul President's Award** for AICOSS Hackathon Competition   
 > Jan. 2024
 
 > **Grand Award**  for 2023 AI Department Programming Competition  
