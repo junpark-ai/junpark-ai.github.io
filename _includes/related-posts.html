@@ -14,11 +14,13 @@
 {% assign match_posts = '' | split: '' %}
 
 {% for category in page.categories %}
-  {% assign match_posts = match_posts | push: site.categories[category] | uniq %}
+  {% assign category_posts = site.categories[category] | where_exp: "post", "post.date > page.date" %}
+  {% assign match_posts = match_posts | concat: category_posts | uniq %}
 {% endfor %}
 
 {% for tag in page.tags %}
-  {% assign match_posts = match_posts | push: site.tags[tag] | uniq %}
+  {% assign tag_posts = site.tags[tag] | where_exp: "post", "post.date > page.date" %}
+  {% assign match_posts = match_posts | concat: tag_posts | uniq %}
 {% endfor %}
 
 {% assign last_index = match_posts.size | minus: 1 %}
@@ -83,7 +85,7 @@
               <div class="text-muted">
                 <p>
                   {% include no-linenos.html content=post.content %}
-                  {{ content | markdownify | strip_html | truncate: 200 | escape }}
+                  {{ post.content | markdownify | strip_html | truncate: 200 | escape }}
                 </p>
               </div>
             </div>
